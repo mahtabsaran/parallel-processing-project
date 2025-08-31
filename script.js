@@ -29,7 +29,7 @@ const resultsDiv = document.getElementById('results');
 const loadingDiv = document.getElementById('loading');
 
 // آدرس API - با توجه به محیط اجرا تغییر دهید
-const API_BASE_URL = 'http://localhost:8000'; // یا آدرس سرور شما
+const API_BASE_URL = 'http://parallel-processing-api.onrender.com'; // یا آدرس سرور شما
 
 // رویداد تغییر نوع پردازش
 methodSelect.addEventListener('change', function() {
